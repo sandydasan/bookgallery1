@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: yellowgreen;
+    margin-bottom: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.navbar p{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 7px 15px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+}
+.navbar-b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown{
+    width: 130px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+select{
+    outline: none;
+    border: none;
+    background: none;
+    padding: 7px 10px 7px 0px;
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+select:hover{
+        color:#333 ;
+}
+.search{
+    width: 300px;
+    background-color: white;
+    height: 40px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px;
+}
+.search input{
+    width: 400px;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+    font-size: 15px;
+}
+.row{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(92, 239, 156, 0.123);
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-top:0;
+}
+.row .content{
+    flex:1 1 42rem;
+}
+.row .content h3{
+    color:var(--black);
+    font-size: 3.0rem;
+}
+.row .content p{
+    color:var(--light-color);
+    font-size: 1rem;
+    line-height: 1;
+    padding:1rem 0;
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color:black;
+    background:yellowgreen;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing:10px;
+}
+.btn:hover{
+    background:rgb(237, 95, 95);
+}
+.row .books-slider{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 2px 3px 4px;
+}
+.row .books-slider a img{
+    height: 20rem;
+}
+.row .books-slider a:hover img{
+    transform: scale(1.2);
+}
+.row .books-slider .stand{
+    width: 100%;
+    margin-top: -2rem;
+}
+.icons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 240px;
+}
+.icons-container .icons{
+    display: flex;
+    justify-content: space-between;
+
+    gap:1.5rem;
+    padding:2rem 0;
+}
+.icons-container .icons i{
+    font-size: 30px;
+    color: yellowgreen;
+}
+.icons-container .icons h3{
+    font-size: 1.3rem;
+    color: black;
+    padding-bottom: .5rem;
+}
+.icons-container .icons p{
+    font-size: 1rem;
+    color:var(--light-color);
+}
+.row1{
+    top: 100%;
+    width: 900px;
+    height: 600px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row1 .col{
+    width: 260px;
+    height: 550px;
+    background-color: rgb(242, 245, 241);
+    margin: 10px;
+    justify-content: space-between;
+    box-shadow: 2px 3px 4px;
+    padding: 8px;
+}
+.row1 .col .col1{
+    left: 50px;
+}
+.row1 .col .col2{
+    left: 400px;
+}
+.row1 .col .col3{
+    left: 600px;
+}
+.row1 .col .col4{
+    left: 800px;
+}
+.row1 .col a{
+    text-decoration: none;
+}
+.row .content a{
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    /* margin-top: 150px; */
+    width: 100%;
+    background-color: whitesmoke;
+   
+}
+.col-1{
+    width: 33.333%;
+    /* padding-right: 30px; */
+}
+.col-2{
+     width:33.333% ;
+    /* padding-ri3ght: 30px; */
+}
+.col-3{
+    width:33.333% ;
+    /* padding-right:30px ; */
+}
+.icon{
+    font-size: 100px;
+}
+.a{    font-size: 150px;
+    padding-left:20px;}
