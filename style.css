@@ -28,11 +28,15 @@ body{
     align-items: center;
 
 }
-.navbar p{
-        font-size: 30px;
+.navbar h1{
+        font-size: 40px;
         font-weight: bold;
         color: white;
 
+}
+.navbar h1 i{
+    font-size: 20px;
+    color: #fff;
 }
 .navbar ul{
     display: flex;
@@ -104,6 +108,8 @@ select:hover{
     height: 450px;
     background-color: rgba(92, 239, 156, 0.123);
     display:flex;
+    flex-wrap: wrap;
+
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
@@ -111,6 +117,7 @@ select:hover{
 }
 .row .content{
     flex:1 1 42rem;
+    
 }
 .row .content h3{
     color:var(--black);
@@ -133,15 +140,19 @@ select:hover{
     cursor: pointer;
     font-weight: 500;
     box-sizing:10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 30px;
 }
 .btn:hover{
-    background:rgb(237, 95, 95);
+    background:rgba(185, 177, 177, 0.491);
 }
 .row .books-slider{
     flex:1 1 42rem;
     text-align: center;
     margin-top: 2rem;
     box-shadow: 2px 3px 4px;
+    
 }
 .row .books-slider a img{
     height: 20rem;
@@ -184,9 +195,9 @@ select:hover{
 }
 .row1{
     top: 100%;
-    width: 900px;
-    height: 600px;
-    
+    width: 950px;
+    height: 750px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
